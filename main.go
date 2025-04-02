@@ -15,6 +15,8 @@ import (
     "os"
 )
 
+
+
 func main1() {
     cgi.Serve(http.FileServer(http.Dir("/usr/share/doc")))
 }
